@@ -126,3 +126,20 @@ a:hover{
     margin: 8px auto;
 }
 
+.preco-patins{
+    font-size: 0.8em;
+    padding: 8px;
+    display: inline;
+}
+
+.ver-mais{
+    color:#F0B917;
+    text-align: right;
+    text-decoration: underline;
+    font-size: 0.7em;
+    font-weight: 700;
+}
+
+.ver-mais:hover{
+    color: rgb(56, 56, 56);
+}
