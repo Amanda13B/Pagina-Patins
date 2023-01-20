@@ -100,7 +100,7 @@ a:hover{
 .mais-vendidos{
     display: block;
     background: linear-gradient(#F9F8EB, #155263);
-    height: 110vh;
+    height: 80vh;
 }
 
 .titulo-mais-vendidos{
@@ -142,4 +142,73 @@ a:hover{
 
 .ver-mais:hover{
     color: rgb(56, 56, 56);
+}
+
+.secao-cartoes{
+    background-color: #155263;
+    padding: 50px 0;
+}
+
+.cartao-categoria{
+    width: 70%;
+    overflow: hidden;
+    margin: 0 auto 32px auto;
+    background-color: #F9F8EB;
+    border-radius: 9px;
+}
+
+.imagem-cartao-categoria{
+    width: 100%;
+}
+
+.titulo-cartao{
+    text-align: center;
+    padding: 10px;
+}
+
+.redes-sociais{
+    padding-top: 50px;
+    background-color: #76B39D;
+}
+
+.titulo-redes-sociais{
+    color: rgb(56, 56, 56);
+    font-size: 1.1em;
+    text-align: center;
+}
+
+.video{
+    width: 80vw;
+    margin: 0 auto;
+    padding: 40px 0;
+}
+
+footer{
+    background-color: #F9F8EB;
+    padding: 50px 0 40px 0;
+}
+
+.imagem-footer{
+    display: block;
+    width: 40%;
+    margin: 0 auto;
+    padding-bottom: 30px;
+    grid-row: 1;
+}
+
+.icones{
+    text-align: center;
+}
+
+i{
+    font-size: 2em;
+    padding: 10px;
+}
+
+.copyright{
+    padding: 40px 0 10px 0;
+    width: 90%;
+    margin: 0 auto;
+    font-size: 0.8em;
+    text-align: center;
 }
